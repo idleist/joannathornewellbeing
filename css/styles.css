@@ -1,246 +1,247 @@
 /* General styles across the site */
 
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.headerText{
-    font-family: 'Dancing Script', cursive; 
-    font-size: 12vw; 
-    text-align: center;
+.headerText {
+  font-family: "Dancing Script", cursive;
+  font-size: 12vw;
+  text-align: center;
 }
 
-section{
-    padding: 20vw 0;
+section {
+  padding: 20vw 0;
 }
 
-.container{
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
+.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.navbar-toggler{
-    font-size: 0.8rem;
-    border: none;
+.navbar-toggler {
+  font-size: 0.8rem;
+  border: none;
 }
 
-
-.button{
-    text-decoration: none;
-    font-size: 6vw;
-    border-radius: 10px;
-    text-transform: uppercase;
-    padding: 5px 25px;
+.button {
+  text-decoration: none;
+  font-size: 6vw;
+  border-radius: 10px;
+  text-transform: uppercase;
+  padding: 5px 25px;
 }
 
-a{
-    color: inherit;
-    text-decoration: none;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-a:hover{
-    color: inherit;
-    text-decoration: none;
+a:hover {
+  color: inherit;
+  text-decoration: none;
 }
 
 /* Images */
 
-.floatingImages{
-    position: relative;
-    display: none;
+.floatingImages {
+  position: relative;
+  display: none;
 }
 
-.floatingImage{
-    position: absolute;
-    height: 20vw;
-    z-index: 40; 
-    
+.floatingImage {
+  position: absolute;
+  height: 20vw;
+  z-index: 40;
 }
 
-.One{
-    right: 5vw;
-    top: -5vw;
-    -webkit-box-shadow: 10px 10px #6dd6c5;
-            box-shadow: 10px 10px #6dd6c5;
+.One {
+  right: 5vw;
+  top: -5vw;
+  -webkit-box-shadow: 10px 10px #6dd6c5;
+  box-shadow: 10px 10px #6dd6c5;
 }
 
 .Two {
-    left: 5vw; 
-    top: -11vw;
-    -webkit-box-shadow: -10px -10px #6dd6c5;
-            box-shadow: -10px -10px #6dd6c5;
+  left: 5vw;
+  top: -11vw;
+  -webkit-box-shadow: -10px -10px #6dd6c5;
+  box-shadow: -10px -10px #6dd6c5;
 }
-
 
 /* Header and Navigation Styles */
 
-header, footer{
-    background-color: #7293a0;
+header,
+footer {
+  background-color: #7293a0;
 }
 
-nav{
-    background-color: #7293a0;
+nav {
+  background-color: #7293a0;
 }
-.navbar-light .navbar-nav .nav-link{
-    color: white;
+.navbar-light .navbar-nav .nav-link {
+  color: white;
 }
-.navbar-nav{
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-}
-
-
-
-#logo{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+.navbar-nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 }
 
-.logo{
-    width: 40vw;
-    padding: 20px 0;
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40vw;
+  padding: 20px 0;
 }
 
 #logoTagline {
-    color: white;
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-    font-size: 6vw;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 6vw;
 }
 
 /* About Section styles */
-#about{
-    background-color: #6dd6c5;
-    color: white;
-    position: relative;
-    z-index: 1;
-    margin-top: -10vw;
-    text-align: center;
+#about {
+  background-color: #6dd6c5;
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: -10vw;
+  text-align: center;
 }
 
-#about::after, #events::after{
-    position: absolute;
-    content:"";
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: inherit;
-    -webkit-transform-origin: top left;
-        -ms-transform-origin: top left;
-            transform-origin: top left;
-    -webkit-transform: skewY(-5deg);
-        -ms-transform: skewY(-5deg);
-            transform: skewY(-5deg);
-    z-index: -10;
+#about::after,
+#events::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: inherit;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+  z-index: -10;
 }
 
-#about::before{
-    position: absolute;
-    content:"";
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: inherit;
-    -webkit-transform-origin: top left;
-        -ms-transform-origin: top left;
-            transform-origin: top left;
-    -webkit-transform: skewY(5deg);
-        -ms-transform: skewY(5deg);
-            transform: skewY(5deg);
-    z-index: -10;
+#about::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: inherit;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  -webkit-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  transform: skewY(5deg);
+  z-index: -10;
 }
 
-.bodyText{
-    font-size: 5vw;
-    color: #041d27;
+.bodyText {
+  font-size: 5vw;
+  color: #041d27;
 }
 
-.phoneNumber{
-    font-size: 6vw;
-    font-weight: 500;
+.phoneNumber {
+  font-size: 6vw;
+  font-weight: 500;
 }
 
-.button.white{
-    color: white;
-    border: 2px solid white;
-    
+.button.white {
+  color: white;
+  border: 2px solid white;
+}
+
+.portrait {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 40%;
+  margin: 10px 0;
 }
 
 /* Services Section */
 
-#services{
-    color: #6dd6c5;
-    position: relative;
-    z-index: 3;
-    /* padding: 50px 0; */
+#services {
+  color: #6dd6c5;
+  position: relative;
+  z-index: 3;
+  /* padding: 50px 0; */
 }
 
-#servicesText{
-    padding: 30px 0 60px 0;
-    text-align: center;
+#servicesText {
+  padding: 30px 0 60px 0;
+  text-align: center;
 }
 
 .servicesText {
-    color: #041d27;
-    font-size: 6vw;
+  color: #041d27;
+  font-size: 6vw;
 }
 
-#services .button{
-    color: #6dd6c5;
-    border: 2px solid #6dd6c5;
-    margin-top: 40px;
-    font-size: 4vw;
+#services .button {
+  color: #6dd6c5;
+  border: 2px solid #6dd6c5;
+  margin-top: 40px;
+  font-size: 4vw;
 }
 
 /* Contacts */
-.centered{
-    text-align: center!important;
+.centered {
+  text-align: center !important;
 }
 
 /* Events */
 #events {
-    background-color: #6dd6c5;
-    color: white;
-    position: relative;
-    padding: 50px 0 150px 0;
+  background-color: #6dd6c5;
+  color: white;
+  position: relative;
+  padding: 50px 0 150px 0;
 }
 
-
-#eventsText{
-    text-align: center;
-    font-size: 6vw;
+#eventsText {
+  text-align: center;
+  font-size: 6vw;
 }
 
-.eventsText{
-    color: #041d27;
+.eventsText {
+  color: #041d27;
 }
 
-#eventsButton{
-    display: inline-block;
-    font-size: 0.8em;
-    text-transform: uppercase;
-    border: 2px solid #6dd6c5;
-    padding: 5px 15px;
-    border-radius: 10px;
-    color: #6dd6c5;
-    margin-bottom: 20px;
+#eventsButton {
+  display: inline-block;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  border: 2px solid #6dd6c5;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: #6dd6c5;
+  margin-bottom: 20px;
 }
-
 
 /* Footer */
 footer {
@@ -249,237 +250,231 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: white;
 }
 
-
-.certification{
-    position: relative;
-    width: 40vw;
-    height: 40vw;
-    top: -20vw;
+.certification {
+  position: relative;
+  width: 40vw;
+  height: 40vw;
+  top: -20vw;
 }
 
-#contact{
-    font-size: 5vw;
-    text-align: center;
+#contact {
+  font-size: 5vw;
+  text-align: center;
 }
 
-.contact{
-    text-align: center;
+.contact {
+  text-align: center;
 }
 
-.socialMedia{
-    margin-top: -25px;
+.socialMedia {
+  margin-top: -25px;
 }
 
-.socialMedia i{
-    font-size: 10vw;
+.socialMedia i {
+  font-size: 10vw;
 }
 
 i {
-    padding: 0 5px 15px 5px;
-    font-size: 6vw;
+  padding: 0 5px 15px 5px;
+  font-size: 6vw;
 }
 
 /* Sevices Page */
-#servicesPage .servicesHeader{
-    font-family: 'Dancing Script', cursive; 
-    font-size: 10vw;
-    color: #6dd6c5; 
+#servicesPage .servicesHeader {
+  font-family: "Dancing Script", cursive;
+  font-size: 10vw;
+  color: #6dd6c5;
 }
-#servicesPage .serviceCost{
-    color: #6dd6c5;
-    font-size: 4vw;
-}
-
-#servicesPage .serviceHeading{
-    font-size: 6vw;
-}
-.serviceText{
-    font-size: 5vw;
-    text-align: justify;
-}
-.service{
-    padding: 3vw 0;
+#servicesPage .serviceCost {
+  color: #6dd6c5;
+  font-size: 4vw;
 }
 
-.service i{
-    color: #6dd6c5;
+#servicesPage .serviceHeading {
+  font-size: 6vw;
+}
+.serviceText {
+  font-size: 5vw;
+  text-align: justify;
+}
+.service {
+  padding: 3vw 0;
 }
 
-.contactSocialMedia{
-    padding-top: 20px;
+.service i {
+  color: #6dd6c5;
 }
 
-.alignCenter{
-    text-align: center;
+.contactSocialMedia {
+  padding-top: 20px;
+}
+
+.alignCenter {
+  text-align: center;
 }
 #snhsLogo {
-    width: 25%;
-    margin-left: 5%;
+  width: 25%;
+  margin-left: 5%;
 }
-
 
 /* Smartphones (landscape) */
-@media only screen and (min-width : 321px) {
-    .logo{
-        width: 25vw;
-    }
-    .headerText {
-        font-size: 8vw;
-    }
-    .bodyText{
-        font-size: 3vw;
-    }
-    .button{
-        font-size: 3vw;
-    }
-    .servicesText {
-        font-size: 3vw;
-    }
-    #services .button{
-        font-size: 3vw;
-    }
-    #eventsText{
-        font-size: 3vw;
-    }
-    .certification{
-        width: 30vw;
-        height: 30vw;
-        top: -15vw;
-    }
-    #contact{
-        font-size: 3vw;
-    }
-    .socialMedia i{
-        font-size: 8vw;
-        padding-bottom: 30px;
-    }
-    .serviceText{
-        font-size: 4vw;
-    }
-    
+@media only screen and (min-width: 321px) {
+  .logo {
+    width: 25vw;
+  }
+  .headerText {
+    font-size: 8vw;
+  }
+  .bodyText {
+    font-size: 3vw;
+  }
+  .button {
+    font-size: 3vw;
+  }
+  .servicesText {
+    font-size: 3vw;
+  }
+  #services .button {
+    font-size: 3vw;
+  }
+  #eventsText {
+    font-size: 3vw;
+  }
+  .certification {
+    width: 30vw;
+    height: 30vw;
+    top: -15vw;
+  }
+  #contact {
+    font-size: 3vw;
+  }
+  .socialMedia i {
+    font-size: 8vw;
+    padding-bottom: 30px;
+  }
+  .serviceText {
+    font-size: 4vw;
+  }
 }
-
 
 /* Tablets Media Queries */
 
 /* Tablets (portrait) */
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
-    .certification{
-        width: 20vw;
-        height: 20vw;
-        top: -10vw;
-    } 
-    .floatingImages{
-        display: block;
-    } 
-    #services .headerText {
-        text-align: start;
-    } 
-    #events .headerText{
-        text-align: end;
-    }
-    #servicesPage .servicesHeader{
-        font-size: 8vw;
-    }
-    #servicesPage .serviceCost{
-        font-size: 3vw;
-    }
-    
-    #servicesPage .serviceHeading{
-        font-size: 4vw;
-    }
-    .serviceText{
-        font-size: 2vw;
-    }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .certification {
+    width: 20vw;
+    height: 20vw;
+    top: -10vw;
+  }
+  .floatingImages {
+    display: block;
+  }
+  #services .headerText {
+    text-align: start;
+  }
+  #events .headerText {
+    text-align: end;
+  }
+  #servicesPage .servicesHeader {
+    font-size: 8vw;
+  }
+  #servicesPage .serviceCost {
+    font-size: 3vw;
+  }
 
+  #servicesPage .serviceHeading {
+    font-size: 4vw;
+  }
+  .serviceText {
+    font-size: 2vw;
+  }
 }
 
 /* Desktops and laptops */
-@media only screen and (min-width : 1025px) {
-    .logo{
-        width: 20vw;
-    }
-    #logoTagline {
-        font-size: 4vw;
-    }
-    .headerText{
-        font-size: 6vw;
-    }
-    section{
-        padding: 10vw 0;
-    }
-    .bodyText{
-        font-size: 2.5vw;
-    }
-    .button{
-        font-size: 2vw;
-    }
-    #eventsText{
-        font-size: 2.5vw;
-        padding-bottom: 30px;
-    }
-    .certification{
-        width: 20vw;
-        height: 20vw;
-        top: -10vw;
-    }
-    #contact{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-        font-size: 2vw;
-    }
-    #contacts {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        justify-content: space-evenly;   
-    }
-    i {
-        /* padding: 0 5px 15px 5px; */
-        font-size: 3vw;
-    }
-    .socialMedia i{
-        font-size: 4vw;
-        padding-top: 22px;
-    }
-    .floatingImages{
-        display: block;
-    } 
-    #services .headerText {
-        text-align: start;
-    } 
-    #events .headerText{
-        text-align: end;
-    }
+@media only screen and (min-width: 1025px) {
+  .logo {
+    width: 20vw;
+  }
+  #logoTagline {
+    font-size: 4vw;
+  }
+  .headerText {
+    font-size: 6vw;
+  }
+  section {
+    padding: 10vw 0;
+  }
+  .bodyText {
+    font-size: 2.5vw;
+  }
+  .button {
+    font-size: 2vw;
+  }
+  #eventsText {
+    font-size: 2.5vw;
+    padding-bottom: 30px;
+  }
+  .certification {
+    width: 20vw;
+    height: 20vw;
+    top: -10vw;
+  }
+  #contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 2vw;
+  }
+  #contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  i {
+    /* padding: 0 5px 15px 5px; */
+    font-size: 3vw;
+  }
+  .socialMedia i {
+    font-size: 4vw;
+    padding-top: 22px;
+  }
+  .floatingImages {
+    display: block;
+  }
+  #services .headerText {
+    text-align: start;
+  }
+  #events .headerText {
+    text-align: end;
+  }
 
-    #servicesPage .servicesHeader{
-        font-size: 6vw;
-    }
-    #servicesPage .serviceCost{
-        font-size: 2vw;
-    }
-    
-    #servicesPage .serviceHeading{
-        font-size: 3vw;
-    }
-    .serviceText{
-        font-size: 2vw;
-    }
+  #servicesPage .servicesHeader {
+    font-size: 6vw;
+  }
+  #servicesPage .serviceCost {
+    font-size: 2vw;
+  }
 
+  #servicesPage .serviceHeading {
+    font-size: 3vw;
+  }
+  .serviceText {
+    font-size: 2vw;
+  }
 }
